@@ -1,0 +1,9 @@
+/* config */
+
+:root {
+    --primary-color: #5B359D
+}
+
+body{
+    font-family: Roboto, serif;
+}
