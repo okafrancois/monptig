@@ -12,6 +12,7 @@ a {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 /* config */
 
@@ -21,9 +22,10 @@ ul {
 
 body {
     font-family: Roboto, sans-serif;
+    color: #575757;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
@@ -45,13 +47,83 @@ img{
     padding: 0;
 }
 
-.site-header__logo img{
+.site-header__logo img {
     max-height: 100px;
 }
 
-.site-header__navigation ul{
+.site-header__navigation ul {
     display: flex;
     align-content: center;
     gap: 1rem;
-    appearance: none;padding: 1rem;
+    padding: 1rem;
+}
+
+/* Hero banner styles */
+
+.hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 400px;
+    background: url("../img/backgroung_image.jpg");
+    background-size: cover;
+}
+
+.hero-banner__logo {
+    height: 60px;
+}
+
+.hero-banner__title {
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Presentation section styles */
+
+.presentation {
+    max-width: 43rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    gap: 4rem;
+    text-align: center;
+}
+
+.presentation__title {
+    font-size: 1.2rem;
+}
+
+.services {
+    display: flex;
+    gap: 3rem;
+}
+
+.services__item img{
+    height: 60px;
+    margin-bottom: 1rem;
+}
+
+.services__item h2 {
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #000;
+}
+
+.services__item p {
+    font-size: calc(1rem / 1.5);
+}
+
+.testimonial__comment {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+span.testimonial__author {
+    font-weight: 300;
 }
