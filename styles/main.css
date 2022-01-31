@@ -1,9 +1,57 @@
+/* reset */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
 /* config */
 
 :root {
     --primary-color: #5B359D
 }
 
-body{
-    font-family: Roboto, serif;
+body {
+    font-family: Roboto, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    max-width: 75rem; /* 1200 px pour une base de 16px */
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+/* header styles */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.site-header__logo img{
+    max-height: 100px;
+}
+
+.site-header__navigation ul{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    appearance: none;padding: 1rem;
 }
