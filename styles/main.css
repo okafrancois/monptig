@@ -102,7 +102,7 @@ img {
     gap: 3rem;
 }
 
-.services__item img{
+.services__item img {
     height: 60px;
     margin-bottom: 1rem;
 }
@@ -126,4 +126,46 @@ img {
 
 span.testimonial__author {
     font-weight: 300;
+}
+
+
+/* Footer styles */
+
+footer.container {
+    background: var(--primary-color);
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.copy {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 4rem 4rem;
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-widget {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-widget  ul, .footer-widget .location p {
+    list-style: initial;
+    margin-left: 2rem;
+}
+
+footer h3 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.66);
 }
